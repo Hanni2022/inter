@@ -1,0 +1,327 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.bgc {
+  background: #000000f2 !important;
+}
+.logo--center {
+  justify-content: center !important;
+}
+
+.logo--ml {
+  margin-left: 58px;
+}
+
+.pdt--86 {
+  padding: 105px 5px;
+  height: 1372px;
+}
+
+.img--font {
+  background-image: url(../img/v1016-a-09.jpg);
+  width: 100% !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.img--font::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 304px;
+  height: 1372px;
+  left: 304px;
+  background: rgba(255, 126, 0, 0.2);
+}
+
+.pdt--86 .card {
+  width: 816px;
+  height: 1250px;
+}
+
+.row--center{
+    justify-content: center;
+    text-align: center;
+}
+
+.timeline-steps__item {
+	text-align: center;
+}
+
+.timeline-steps__item:before {
+	background: #fff;
+	border: 1px solid #9A9A9B;
+	border-radius: 100%;
+	content: "";
+	display: block;
+	height: 27px;
+	margin: 15px auto;
+	width: 27px;
+}
+
+.icon-check:before{
+  font-family: "FontAwesome";
+  content: "\f00c";
+  color: white;
+}
+
+.timeline-steps__item--check {
+	color: #A7B437;
+}
+
+.timeline-steps__item--check:before {
+	border-color: #A7B437;
+	content: "\e90c";
+	color: #A7B437;
+	font-family: "porvenir-icons";
+	line-height: 2;
+}
+
+.timeline-steps__item--current {
+	color: #E95A0C;
+}
+
+.timeline-steps__item--current:before {
+	background: #E95A0C;
+	border-color: #E95A0C;
+}
+
+.timeline-steps {
+  margin: 20px auto 0px auto;
+  max-width: 550px;
+}
+.timeline-steps ul {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  list-style: none;
+  position: relative;
+}
+.timeline-steps ul:before {
+  background: #9A9A9B;
+  content: "";
+  height: 1px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: -11px;
+  top: 28px;
+  z-index: 1;
+}
+.timeline-steps__item {
+  flex-basis: 0;
+  flex-grow: 1;
+  position: relative;
+  z-index: 2;
+}
+.timeline-steps--twoitems {
+  max-width: 380px;
+}
+.timeline-steps--twoitems ul:before {
+  width: 44%;
+}
+.timeline-steps--fouritems {
+  max-width: 690px;
+}
+.timeline-steps--fouritems ul:before {
+  width: 75%;
+}
+
+.titulo--h3{
+  color: #FF7E00;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.col-left{
+  text-align: left;
+}
+
+.col-left span {
+  color: rgba(244, 138, 0, 0.85);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+.col-left label{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-control:focus, .form-select:focus , .btn-calcular:focus {
+  border-color: #FF7E00;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(244, 138, 0, 0.85);
+}
+
+.fmr-datos-envio{
+  margin-top: 37px;
+}
+
+.fmr-datos-envio .row{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+input{
+  border-radius: 6px !important;
+}
+
+.ajs--alto{
+  margin-top: 37px;
+}
+
+
+.btn-calcular{
+  background: #FF7E00;
+  height: 60px;
+  border-radius: 5px;
+  width: 328px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.btn-calcular:hover,
+.btn-calcular:active,
+.btn-calcular:visited,
+.btn-calcular:focus {
+    background-color: rgba(244, 138, 0, 0.85);
+    color: white;
+    border-color: #FF7E00;
+}
+
+.ajs--alto-msj{
+  margin-top: 19px;
+}
+
+.p--parrafo{
+  text-align: left;
+  font-weight: 600;
+  padding-left: 22px;
+  font-size: 14px;
+}
+/* Hide the browser's default checkbox */
+.containert input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border: 1px solid #FF7E00;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containert input:checked ~ .checkmark {
+  background-color: #FF7E00;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containert input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containert .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.checkmark:focus{
+  border-color: #FF7E00;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(244, 138, 0, 0.85);
+}
+.col2--alp{
+  text-align: right;
+  padding-right: 58px;
+}
+
+.btn-guardar{
+  background: #E94E1E;
+  opacity: 0.6;
+  height: 60px;
+  border-radius: 5px;
+  width: 328px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.btn-guardar:hover,
+.btn-guardar:active,
+.btn-guardar:visited,
+.btn-guardar:focus {
+    background-color: rgba(244, 138, 0, 0.85);
+    color: white;
+    border-color: #FF7E00;
+}
+.containerf {
+  justify-content: end; 
+  padding-right: 12px !important;
+}
+
+.arrow-2 {
+	height: 30px; width: 25px;
+	border: 1px solid  rgba(244, 138, 0, 0.85);
+	border-width: 8px 8px 0 0;
+	transform: rotate(45deg);
+}
+
+.arrow-2:first-child {
+  margin-right: -14px;
+}
+
+.text-black{
+  color: #54595F !important;
+  font-size: 14px;
+  line-height: initial;
+  margin-bottom: 0px;
+}
+
+.timeline-steps__item--current p{
+  font-size: 14px;
+  line-height: initial;
+  margin-bottom: 0px;
+}
